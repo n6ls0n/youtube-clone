@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only src/main.ts"
+  },
   "devDependencies": {
     "@types/busboy": "^1.5.0",
     "@types/cookie-parser": "^1.4.3",
